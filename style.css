@@ -1,0 +1,92 @@
+
+.nav-color{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(40, 39, 39);
+    
+}
+#F35A38
+
+.nav-color:hover{
+    color: #F35A38;
+}
+
+.btn-1{
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+margin-right: 15px;
+font-weight: 600;
+font-size: 15px;
+}
+.btn-1:hover{
+    color:rgb(41, 39, 39);
+}
+.btn-2{
+    background-color: #ECE9F8;
+    border: #ECE9F8 solid 2px;
+    color:#4628BA ;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: end;
+}
+.banner-row{
+    padding-bottom: 300px;
+}
+.banner-sec{
+    background-image: url(/image/bg-img/1-1.png);
+    position: relative;
+    background-position-y:600px ;
+    padding-bottom: 100px;
+    top:0;
+    left: 0;
+    
+
+}
+.banner-sec{
+z-index: 1;
+background-repeat: no-repeat;
+    background-size:auto;
+}
+.col-1{
+    padding-top: 200px;
+}
+.str-h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: #0E2258;
+}
+.btn-Email{
+    background-color: #4628BA;
+    
+}
+.btn-Email:hover{
+    background-color: #0E2258;
+    color: #ECE9F8;
+    transition: 0.8s;
+}
+
+.img-sec{
+    margin-left: 0px;
+}
+
+.img-banner{
+    margin-top: 200px;
+position: relative;
+top: 0;
+left: 0;
+
+}
+.img-banner2{
+    top: -300px;
+    left: 400px;
+    position: relative;
+    
+   } 
+/* .sec-2{
+    background-color: #4628BA;
+} */
