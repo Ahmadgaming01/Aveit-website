@@ -3,12 +3,13 @@
     font-size: 17px;
     font-weight: 500;
     color: rgb(40, 39, 39);
-    
+    margin-right: 10px;
+    text-decoration: none;
+    transition: 0.7s;
 }
-#F35A38
 
 .nav-color:hover{
-    color: #F35A38;
+    color:#F35A38 ;
 }
 
 .btn-1{
@@ -35,13 +36,13 @@ font-size: 15px;
     justify-content: end;
 }
 .banner-row{
-    padding-bottom: 300px;
+
 }
 .banner-sec{
     background-image: url(/image/bg-img/1-1.png);
     position: relative;
-    background-position-y:600px ;
-    padding-bottom: 100px;
+    background-position-y:720px ;
+    
     top:0;
     left: 0;
     
@@ -53,7 +54,7 @@ background-repeat: no-repeat;
     background-size:auto;
 }
 .col-1{
-    padding-top: 200px;
+    margin-top: 200px;
 }
 .str-h1{
     font-weight: 600;
@@ -86,7 +87,106 @@ left: 0;
     left: 400px;
     position: relative;
     
+   }
+   .banner-list{
+    display: inline-block;
+    border-right: solid 2px rgb(93, 89, 89);
+
    } 
-/* .sec-2{
+   .banner-list1{
+    display: inline-block;
+    
+   } 
+.sec-2{
     background-color: #4628BA;
-} */
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+
+.icon-banner{
+    border-right: solid 1px rgb(180, 178, 178) ;
+}
+
+.sec-3{
+    padding-top: 200px;
+}
+.sec3-h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #0E2258;
+}
+
+.sec3-link{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #4628BA;
+    border-radius: 24px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-weight: 600;
+}
+.sec-3-icon{
+    background-image: url(/image/bg-img/globe.png);
+    color: white;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-x: 30px;
+    animation-name: bg-rotate-sec3;
+    transition: 8s;
+    background-size: auto;
+    
+}
+@keyframes bg-rotate-sec3{
+    0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .sec-3-icons{
+       background-color: #ffffff;
+    }
+    .sec-4{
+        background-color:#ECF6FA ;
+        margin-top: 100px;
+    }
+    .sec4-h4{
+        color: #4628BA;
+    }
+    .sec4-h1{
+        color: #0E2258;
+    }
+    .sec4-btn{
+        background-color: white;
+        text-decoration: none;
+        font-weight: 400;
+        border-radius: 30px;
+        border: solid 2px white;
+        color: #0E2258;
+        transition: 0.8s;
+
+    }
+    .sec4-btn:hover{
+        background-color: #0E2258;
+        color: white;
+    }
+    .sec4-p{
+        margin-bottom: 100px;
+        text-align: start;
+        padding-left: 76px;
+        padding-right: 49px;
+
+    }
+    .sec4-img{
+        position: relative;
+        
+    }
+    .sec-5acord{
+        font-weight: 700;
+        color: black;
+    }
